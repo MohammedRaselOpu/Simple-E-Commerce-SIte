@@ -1,0 +1,328 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+
+    
+  <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="title">Tech</span>Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fas fa-bars"></i>
+    </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prdt">Products</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Review</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+ <section class="carousel">
+
+<div class="slideshow">
+  <h1 class="carousel-title text-center">Exclusive Deals!</h1>
+<hr class="bar">
+
+
+<img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/rtx_4090_qrd.jpg" alt="" id="slideimg">
+</div>
+
+
+
+ </section>
+
+
+    <section class="container">
+      <h1 class="container-title" id="prdt">New Arrivals</h1>
+
+     <div class="product-container"> 
+      
+      
+      <div class="shopping-area">
+      
+      
+
+
+        <div id="display-card" class="products col-9">
+                
+
+
+      
+      
+      </div>
+
+      <div class="mycart card w-25 p-2 col-3">
+
+        <h2 class="text-center">My Cart</h2>
+                <hr>
+                <h3 >Total Products :  &nbsp&nbsp&nbsp&nbsp<span id="total-products">0</span></h3>
+                <h3 >Price : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="price">0</span></h3>
+                <h3>Delivery Charge : &nbsp&nbsp<span id="delivery-charge">0</span></h3>
+                <h3>Shiping Charge : &nbsp&nbsp<span id="ship-charge">0</span></h3>
+                <hr>
+                <h3 >Tax  : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="tax">0</span></h3>
+                <h2>Total Price : &nbsp&nbsp&nbsp&nbsp&nbsp <span id="total">0</span></h2>
+                <button onclick="orderProducts()" class="btn btn-secondary">Check Out</button>
+                <div id="details">
+                    
+                </div>
+
+      </div>
+    
+    </div>
+    </section>
+
+    <section>
+
+      <h1 class="upcoming-title">Upcoming Products</h1>
+      
+        <div class="upcoming-products" >
+          <div class="cards">
+            <img class="card-img" src="https://cdn.shopify.com/s/files/1/1706/9177/products/sg2.jpg?v=1613634631" alt="">
+            <h2>Mackbook Pro 16</h2>
+            <p>Product Description</p>
+            
+          </div>
+      
+          <div class="cards">
+            <img class="card-img" src="https://www.sony-asia.com/image/8bc744675cdc8c8eeb5be191468f5648?fmt=png-alpha&wid=660&hei=660" alt="">
+            <h2>Sony Bravia</h2>
+            <p>Product Description</p>
+          
+          </div>
+      
+          
+          <div class="cards">
+            <img class="card-img" src="https://media.wired.com/photos/5cf59b02f5153c285215d0b8/1:1/w_1560,h_1560,c_limit/gear_mac-pro.jpg" alt="">
+            <h2>Mac Pro</h2>
+            <p>Product Description</p>
+            
+          </div>
+      
+          <div class="cards">
+            <img class="card-img" src="data:image/jpeg;base64,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" alt="">
+            <h2>PS 5</h2>
+            <p>Product Description</p>
+          
+          </div>
+          <div class="cards">
+            <img class="card-img" src="https://adminapi.applegadgetsbd.com/storage/media/large/Web-banner-2-3097.jpg" alt="">
+            <h2>Airpods Pro</h2>
+            <p>Product Description</p>
+          
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="review" id="reviews">
+      <div class="review-container">
+          <h1 class="review-header">Customers Review <span>What Our Customers Says About Us</span></h1>
+          <div class="testimonials">
+              
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://scontent.fcgp28-1.fna.fbcdn.net/v/t39.30808-6/308719706_3383194935302918_2098012919645126043_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFpB8RAl4Lqrdov9ZYiAyTZPzXbWDtnB9U_NdtYO2cH1XZvFYvjCskMK-pu2f2yblfT4PiEyLmCe1c--4gGt0BA&_nc_ohc=O6woTGWG-uEAX_vgBP4&_nc_ht=scontent.fcgp28-1.fna&oh=00_AT_EOWj_6v8F-hknDdaR_IWRW0SM3Nx_1ILRXd9QT62Mdg&oe=6352666D" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Md Mukter</h2>
+                                        <h4>Web Developer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://scontent.fcgp28-1.fna.fbcdn.net/v/t39.30808-6/271048960_2858817727746147_7206629355878005844_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGcQbB50SPVpVDFu2mZjMDEC-AMOLmTmFML4Aw4uZOYUwkVNbmptF0GL_KkI4B0kpeONpn-j3tRtg7EWVpc08DH&_nc_ohc=jQwQ1FgpqRwAX_Vy1oJ&_nc_ht=scontent.fcgp28-1.fna&oh=00_AT-QqHOB2fPhCARVDw7BvjGd5D4sisnT-ZvTs9fc4IrwLQ&oe=63524807" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Syed Nazmus Shakib</h2>
+                                        <h4>UI/UX Designer</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="single-item">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="profile">
+                                    <div class="img-area">
+                                        <img src="https://scontent.fcgp28-1.fna.fbcdn.net/v/t39.30808-6/275441457_3015275675468601_179975508271809417_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHJkbVDoQAOsWN40LZdlZjpHbBx97FV_0odsHH3sVX_Shr0q2EP8K6sMyqq_sXlwkLO49AHbX0cSoW3hIlh7_s0&_nc_ohc=zWrEXSbYSkcAX8Lnqvw&tn=pnMlBIzHYxFXSMD-&_nc_ht=scontent.fcgp28-1.fna&oh=00_AT-M7SiF3uo4FUiUYzrQPgwzaDG7Og5M3cFACQOdi3KY6Q&oe=6353A97C" alt="">
+                                    </div>
+                                    <div class="bio">
+                                        <h2>Aniruddha Talukder Borno</h2>
+                                        <h4>Professional Basketball Player</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                    <p class="socials">
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-behance"></i>
+                                        <i class="fa fa-pinterest"></i>
+                                        <i class="fa fa-dribbble"></i>
+                                        <i class="fa fa-vimeo"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+ <h1 class="text-3xl py-5 text-center text-uppercase">Write to <span class="text-orange-500">Us</span></h1>
+  <div class=" d-flex justify-center froms">
+    
+    <div class="">
+        <div class="px-2 flex flex-col space-y-3 py-2 ">
+            <input type="text" class="w-full p-3 rounded border-gray-300 border" placeholder="Enter your email">
+        </div>
+        <div class="px-2">
+            <textarea class="tarea w-full p-3 rounded border-gray-300 border" placeholder="Enter your msg" name="" id="" cols="30" rows="5"></textarea>
+        </div>
+        
+        <button class="py-2 px-10 bg-orange-500 text-white rounded mx-auto block fbtn">SUBMIT</button>
+    </div>
+    
+
+</div>
+
+    
+
+<footer id="contact">
+<p>Mohammed Rasel Opu</p>
+<p>Contact me through my social media accounts,the links are given below:</p>
+<div class="social" id="contact">
+<a class="f" href="https://www.facebook.com/mohammed.raselopu.7"><i class="fab fa-facebook-f"></i></a>
+<a class="i"href="#"><i class="fab fa-instagram"></i></a>
+<a class="t"href="#"><i class="fab fa-twitter"></i></a>
+</div>
+<p class="end">Ⓒ All Right Reserved By <span class="cpr">Mohammed Rasel Opu</span></p>
+</footer>
+    
+
+
+    <script src="script.js">
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
